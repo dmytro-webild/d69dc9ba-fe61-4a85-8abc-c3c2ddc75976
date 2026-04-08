@@ -63,7 +63,7 @@ export default function LandingPage() {
           href: "https://wa.me/5563999999999",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=1"
       imageAlt="Veículo com acabamento premium espelhado"
     />
   </div>
@@ -78,42 +78,42 @@ export default function LandingPage() {
           title: "Reparos de Precisão",
           description: "Eliminação definitiva de amassados e riscos com alinhamento de fábrica.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=2",
             imageAlt: "Reparo técnico",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=1",
             imageAlt: "Ferramentas",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=3",
           imageAlt: "flawless black car paint reflection",
         },
         {
           title: "Pintura de Elite",
           description: "Tecnologia de colorimetria para uma pintura sem diferença de tonalidade.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=1",
             imageAlt: "Pintura acabamento",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=4",
             imageAlt: "Brilho intenso",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=5",
           imageAlt: "macro car paint polish reflection",
         },
         {
           title: "Estética Premium",
           description: "Revitalização completa que devolve o aspecto de veículo recém-saído da concessionária.",
           phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=2",
             imageAlt: "Estética automotiva",
           },
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg",
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=2",
             imageAlt: "Polimento detalhado",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=3",
           imageAlt: "professional car restoration work precision",
         },
       ]}
@@ -137,7 +137,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "24",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=6",
         },
         {
           id: "2",
@@ -146,7 +146,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "18",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=4",
         },
         {
           id: "3",
@@ -155,7 +155,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "32",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=3",
         },
         {
           id: "4",
@@ -164,7 +164,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "12",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=7",
         },
         {
           id: "5",
@@ -173,7 +173,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "9",
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=8",
         },
         {
           id: "6",
@@ -182,7 +182,7 @@ export default function LandingPage() {
           price: "Premium",
           rating: 5,
           reviewCount: "21",
-          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=5",
         },
       ]}
       title="Resultados que impressionam"
@@ -263,7 +263,7 @@ export default function LandingPage() {
           content: "Muito simples. Clique no botão de WhatsApp, envie as fotos do dano e nossos consultores farão uma análise preliminar para você.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=6"
       imageAlt="Ambiente de restauração"
       mediaAnimation="slide-up"
       title="Perguntas frequentes"

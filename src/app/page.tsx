@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Solicitar Orçamento",          href: "https://wa.me/5563999999999"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=1"
       imageAlt="Veículo com acabamento premium espelhado"
     />
   </div>
@@ -65,21 +65,21 @@ export default function LandingPage() {
       features={[
         {
           title: "Reparos de Precisão",          description: "Eliminação definitiva de amassados e riscos com alinhamento de fábrica.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",            imageAlt: "Reparo técnico"},
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=2",            imageAlt: "Reparo técnico"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",            imageAlt: "Ferramentas"},
+            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=1",            imageAlt: "Ferramentas"},
         },
         {
           title: "Pintura de Elite",          description: "Tecnologia de colorimetria para uma pintura sem diferença de tonalidade.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg",            imageAlt: "Pintura acabamento"},
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=1",            imageAlt: "Pintura acabamento"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg",            imageAlt: "Brilho intenso"},
+            imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=3",            imageAlt: "Brilho intenso"},
         },
         {
           title: "Estética Premium",          description: "Revitalização completa que devolve o aspecto de veículo recém-saído da concessionária.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg",            imageAlt: "Estética automotiva"},
+            imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=2",            imageAlt: "Estética automotiva"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg",            imageAlt: "Polimento detalhado"},
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=2",            imageAlt: "Polimento detalhado"},
         },
       ]}
       showStepNumbers={true}
@@ -97,22 +97,22 @@ export default function LandingPage() {
       products={[
         {
           id: "1",          brand: "Diamond",          name: "Restauração de Parachoque",          price: "Premium",          rating: 5,
-          reviewCount: "24",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg"},
+          reviewCount: "24",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=4"},
         {
           id: "2",          brand: "Diamond",          name: "Pintura de Porta (Sem emenda)",          price: "Premium",          rating: 5,
-          reviewCount: "18",          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg"},
+          reviewCount: "18",          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=3"},
         {
           id: "3",          brand: "Diamond",          name: "Polimento Técnico Total",          price: "Premium",          rating: 5,
-          reviewCount: "32",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg"},
+          reviewCount: "32",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-wrapping-car-job_23-2149385697.jpg?_wi=3"},
         {
           id: "4",          brand: "Diamond",          name: "Funilaria de Coluna",          price: "Premium",          rating: 5,
-          reviewCount: "12",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg"},
+          reviewCount: "12",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=5"},
         {
           id: "5",          brand: "Diamond",          name: "Recuperação de Teto",          price: "Premium",          rating: 5,
-          reviewCount: "9",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg"},
+          reviewCount: "9",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=6"},
         {
           id: "6",          brand: "Diamond",          name: "Reparo Lateral de Luxo",          price: "Premium",          rating: 5,
-          reviewCount: "21",          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg"},
+          reviewCount: "21",          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=4"},
       ]}
       title="Resultados que impressionam"
       description="Veja o nível de detalhamento e o acabamento que entregamos em cada transformação."
@@ -155,7 +155,7 @@ export default function LandingPage() {
         {
           id: "4",          title: "Como solicito o orçamento?",          content: "Muito simples. Clique no botão de WhatsApp, envie as fotos do dano e nossos consultores farão uma análise preliminar para você."},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=5"
       imageAlt="Ambiente de restauração"
       mediaAnimation="slide-up"
       title="Perguntas frequentes"

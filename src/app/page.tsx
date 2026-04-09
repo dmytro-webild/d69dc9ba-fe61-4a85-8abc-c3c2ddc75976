@@ -193,11 +193,11 @@ export default function LandingPage() {
         {
           title: "Serviços",          items: [
             {
-              label: "Funilaria",              href: "#services"},
+              label: "Funilaria",              href: "#"},
             {
-              label: "Pintura",              href: "#services"},
+              label: "Pintura",              href: "#"},
             {
-              label: "Estética",              href: "#services"},
+              label: "Estética",              href: "#"},
           ],
         },
         {
@@ -205,7 +205,7 @@ export default function LandingPage() {
             {
               label: "WhatsApp",              href: "https://wa.me/5563991226870"},
             {
-              label: "Palmas, TO",              href: "#contact"},
+              label: "Palmas, TO",              href: "#"},
           ],
         },
       ]}

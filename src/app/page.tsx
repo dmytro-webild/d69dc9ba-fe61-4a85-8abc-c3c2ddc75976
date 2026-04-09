@@ -38,7 +38,7 @@ export default function LandingPage() {
         {
           name: "Contato",          id: "contact"},
       ]}
-      brandName="Felisberto Estética Automotiva"
+      brandName="Diamond Studio Car"
     />
   </div>
 
@@ -52,8 +52,8 @@ export default function LandingPage() {
         {
           text: "Solicitar Orçamento",          href: "https://wa.me/5563991226870"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775762438692-vdrgraca.jpg"
-      imageAlt="Felisberto Estética Automotiva"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775692966198-nb5h9rac.webp"
+      imageAlt="Veículo com acabamento premium espelhado"
     />
   </div>
 
@@ -96,22 +96,22 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "1",          brand: "Felisberto",          name: "Restauração de Parachoque",          price: "",          rating: 5,
+          id: "1",          brand: "Diamond",          name: "Restauração de Parachoque",          price: "",          rating: 5,
           reviewCount: "24",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752126201-qfwrcrny.webp"},
         {
-          id: "2",          brand: "Felisberto",          name: "Pintura de Porta (Sem emenda)",          price: "",          rating: 5,
+          id: "2",          brand: "Diamond",          name: "Pintura de Porta (Sem emenda)",          price: "",          rating: 5,
           reviewCount: "18",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752156874-ny8sc2bh.webp"},
         {
-          id: "3",          brand: "Felisberto",          name: "Polimento Técnico Total",          price: "",          rating: 5,
+          id: "3",          brand: "Diamond",          name: "Polimento Técnico Total",          price: "",          rating: 5,
           reviewCount: "32",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752135544-fjkxmxz5.webp"},
         {
-          id: "4",          brand: "Felisberto",          name: "Funilaria de Coluna",          price: "",          rating: 5,
+          id: "4",          brand: "Diamond",          name: "Funilaria de Coluna",          price: "",          rating: 5,
           reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752148211-jpik54o1.webp"},
         {
-          id: "5",          brand: "Felisberto",          name: "Recuperação de Teto",          price: "",          rating: 5,
+          id: "5",          brand: "Diamond",          name: "Recuperação de Teto",          price: "",          rating: 5,
           reviewCount: "9",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752406482-p55uz3fb.webp"},
         {
-          id: "6",          brand: "Felisberto",          name: "Reparo Lateral",          price: "",          rating: 5,
+          id: "6",          brand: "Diamond",          name: "Reparo Lateral",          price: "",          rating: 5,
           reviewCount: "21",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752418115-hz3we41b.webp"},
       ]}
       title="Resultados que impressionam"
@@ -137,7 +137,7 @@ export default function LandingPage() {
           id: "5",          name: "Carlos V.",          handle: "@carlosv",          testimonial: "Acabamento de fábrica. Recomendo muito para quem tem carro de valor.",          imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg"},
       ]}
       title="Excelência aprovada"
-      description="Veja o que nossos clientes dizem sobre o padrão de restauração da Felisberto Estética Automotiva."
+      description="Veja o que nossos clientes dizem sobre o padrão de restauração da Diamond Studio Car."
     />
   </div>
 
@@ -209,7 +209,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      bottomLeftText="Felisberto Estética Automotiva © 2024"
+      bottomLeftText="Diamond Studio Car © 2024"
       bottomRightText="Todos os direitos reservados"
     />
   </div>

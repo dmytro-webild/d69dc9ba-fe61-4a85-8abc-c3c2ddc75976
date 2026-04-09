@@ -96,23 +96,23 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "1",          brand: "Diamond",          name: "Restauração de Parachoque",          price: "Premium",          rating: 5,
+          id: "1",          brand: "Diamond",          name: "Restauração de Parachoque",          price: "",          rating: 5,
           reviewCount: "24",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752126201-qfwrcrny.webp"},
         {
-          id: "2",          brand: "Diamond",          name: "Pintura de Porta (Sem emenda)",          price: "Premium",          rating: 5,
+          id: "2",          brand: "Diamond",          name: "Pintura de Porta (Sem emenda)",          price: "",          rating: 5,
           reviewCount: "18",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752156874-ny8sc2bh.webp"},
         {
-          id: "3",          brand: "Diamond",          name: "Polimento Técnico Total",          price: "Premium",          rating: 5,
+          id: "3",          brand: "Diamond",          name: "Polimento Técnico Total",          price: "",          rating: 5,
           reviewCount: "32",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752135544-fjkxmxz5.webp"},
         {
-          id: "4",          brand: "Diamond",          name: "Funilaria de Coluna",          price: "Premium",          rating: 5,
+          id: "4",          brand: "Diamond",          name: "Funilaria de Coluna",          price: "",          rating: 5,
           reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752148211-jpik54o1.webp"},
         {
-          id: "5",          brand: "Diamond",          name: "Recuperação de Teto",          price: "Premium",          rating: 5,
-          reviewCount: "9",          imageSrc: "http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=6"},
+          id: "5",          brand: "Diamond",          name: "Recuperação de Teto",          price: "",          rating: 5,
+          reviewCount: "9",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752406482-p55uz3fb.webp"},
         {
-          id: "6",          brand: "Diamond",          name: "Reparo Lateral de Luxo",          price: "Premium",          rating: 5,
-          reviewCount: "21",          imageSrc: "http://img.b2bpic.net/free-photo/set-mechanical-tools-professional-car-mechanic-using-different-tools-working_146671-19065.jpg?_wi=4"},
+          id: "6",          brand: "Diamond",          name: "Reparo Lateral",          price: "",          rating: 5,
+          reviewCount: "21",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752418115-hz3we41b.webp"},
       ]}
       title="Resultados que impressionam"
       description="Veja o nível de detalhamento e o acabamento que entregamos em cada transformação."

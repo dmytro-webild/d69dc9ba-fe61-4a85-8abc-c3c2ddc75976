@@ -47,7 +47,7 @@ export default function LandingPage() {
       background={{
         variant: "gradient-bars"}}
       title="Seu carro restaurado com padrão de excelência"
-      description="Funilaria e pintura com acabamento profissional em Palmas. Tratamos cada detalhe como uma obra de arte."
+      description="Funilaria e pintura com acabamento profissional. Tratamos cada detalhe como uma obra de arte."
       buttons={[
         {
           text: "Solicitar Orçamento",          href: "https://wa.me/5563999999999"},

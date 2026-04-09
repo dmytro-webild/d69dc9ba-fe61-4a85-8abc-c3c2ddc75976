@@ -169,7 +169,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "radial-gradient"}}
-      tag="Orçamento Ágil"
+      tag="Faça seu Orçamento"
       title="Pronto para restaurar seu carro?"
       description="Entre em contato agora e receba um atendimento especializado para o seu veículo."
       buttons={[

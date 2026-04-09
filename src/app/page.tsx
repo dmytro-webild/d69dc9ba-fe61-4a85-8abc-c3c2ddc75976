@@ -52,7 +52,7 @@ export default function LandingPage() {
         {
           text: "Solicitar Orçamento",          href: "https://wa.me/5563999999999"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/closeup-shot-water-drops-white-surface_181624-59940.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775692966198-nb5h9rac.webp"
       imageAlt="Veículo com acabamento premium espelhado"
     />
   </div>

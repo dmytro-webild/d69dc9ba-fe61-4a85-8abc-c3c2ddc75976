@@ -50,7 +50,7 @@ export default function LandingPage() {
       description="Funilaria e pintura com acabamento profissional. Tratamos cada detalhe como uma obra de arte."
       buttons={[
         {
-          text: "Solicitar Orçamento",          href: "https://wa.me/5563999999999"},
+          text: "Solicitar Orçamento",          href: "https://wa.me/5563991226870"},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775692966198-nb5h9rac.webp"
       imageAlt="Veículo com acabamento premium espelhado"
@@ -174,7 +174,7 @@ export default function LandingPage() {
       description="Entre em contato agora e receba um atendimento especializado para o seu veículo."
       buttons={[
         {
-          text: "WhatsApp Fixo",          href: "https://wa.me/5563999999999"},
+          text: "WhatsApp Fixo",          href: "https://wa.me/5563991226870"},
       ]}
     />
   </div>
@@ -203,7 +203,7 @@ export default function LandingPage() {
         {
           title: "Contato",          items: [
             {
-              label: "WhatsApp",              href: "https://wa.me/5563999999999"},
+              label: "WhatsApp",              href: "https://wa.me/5563991226870"},
             {
               label: "Palmas, TO",              href: "#"},
           ],

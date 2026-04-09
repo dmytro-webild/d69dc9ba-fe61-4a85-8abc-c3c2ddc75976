@@ -29,28 +29,22 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Início",          id: "hero"},
-        {
-          name: "Serviços",          id: "services"},
-        {
-          name: "Resultados",          id: "results"},
-        {
-          name: "Contato",          id: "contact"},
+        { name: "Início", id: "hero" },
+        { name: "Serviços", id: "services" },
+        { name: "Resultados", id: "results" },
+        { name: "Contato", id: "contact" },
       ]}
-      brandName="Diamond Studio Car"
+      brandName="Felisberto Estética"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
-      background={{
-        variant: "gradient-bars"}}
-      title="Seu carro restaurado com padrão de excelência"
-      description="Funilaria e pintura com acabamento profissional. Tratamos cada detalhe como uma obra de arte."
+      background={{ variant: "gradient-bars" }}
+      title="Felisberto Estética Automotiva"
+      description="Excelência e precisão no cuidado com seu veículo. Devolvemos o brilho e a originalidade com um padrão de acabamento incomparável."
       buttons={[
-        {
-          text: "Solicitar Orçamento",          href: "https://wa.me/5563991226870"},
+        { text: "Agende seu atendimento", href: "https://wa.me/5563991226870" },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775692966198-nb5h9rac.webp"
       imageAlt="Veículo com acabamento premium espelhado"
@@ -64,22 +58,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Reparos de Precisão",          description: "Eliminação definitiva de amassados e riscos com alinhamento de fábrica.",          phoneOne: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693209069-s82ks358.png",            imageAlt: "Reparo técnico"},
-          phoneTwo: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693221315-v995a65d.png",            imageAlt: "Ferramentas"},
+          title: "Reparos de Precisão",          description: "Eliminação definitiva de amassados e riscos com alinhamento de fábrica.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693209069-s82ks358.png", imageAlt: "Reparo técnico" },
+          phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693221315-v995a65d.png", imageAlt: "Ferramentas" },
         },
         {
-          title: "Pintura de Elite",          description: "Tecnologia de colorimetria para uma pintura sem diferença de tonalidade.",          phoneOne: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693323043-47u4jdls.png",            imageAlt: "Pintura acabamento"},
-          phoneTwo: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693363006-m4gkbvac.png",            imageAlt: "Brilho intenso"},
+          title: "Pintura de Elite",          description: "Tecnologia de colorimetria para uma pintura sem diferença de tonalidade.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693323043-47u4jdls.png", imageAlt: "Pintura acabamento" },
+          phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775693363006-m4gkbvac.png", imageAlt: "Brilho intenso" },
         },
         {
-          title: "Estética Premium",          description: "Revitalização completa que devolve o aspecto de veículo recém-saído da concessionária.",          phoneOne: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775751836522-clo2htzf.png",            imageAlt: "Estética automotiva"},
-          phoneTwo: {
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775751803931-l2ekr1k3.png",            imageAlt: "Polimento detalhado"},
+          title: "Estética Premium",          description: "Revitalização completa que devolve o aspecto de veículo recém-saído da concessionária.",          phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775751836522-clo2htzf.png", imageAlt: "Estética automotiva" },
+          phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775751803931-l2ekr1k3.png", imageAlt: "Polimento detalhado" },
         },
       ]}
       showStepNumbers={true}
@@ -95,24 +83,8 @@ export default function LandingPage() {
       gridVariant="two-columns-alternating-heights"
       useInvertedBackground={true}
       products={[
-        {
-          id: "1",          brand: "Diamond",          name: "Restauração de Parachoque",          price: "",          rating: 5,
-          reviewCount: "24",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752126201-qfwrcrny.webp"},
-        {
-          id: "2",          brand: "Diamond",          name: "Pintura de Porta (Sem emenda)",          price: "",          rating: 5,
-          reviewCount: "18",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752156874-ny8sc2bh.webp"},
-        {
-          id: "3",          brand: "Diamond",          name: "Polimento Técnico Total",          price: "",          rating: 5,
-          reviewCount: "32",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752135544-fjkxmxz5.webp"},
-        {
-          id: "4",          brand: "Diamond",          name: "Funilaria de Coluna",          price: "",          rating: 5,
-          reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752148211-jpik54o1.webp"},
-        {
-          id: "5",          brand: "Diamond",          name: "Recuperação de Teto",          price: "",          rating: 5,
-          reviewCount: "9",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752406482-p55uz3fb.webp"},
-        {
-          id: "6",          brand: "Diamond",          name: "Reparo Lateral",          price: "",          rating: 5,
-          reviewCount: "21",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752418115-hz3we41b.webp"},
+        { id: "1", brand: "Felisberto", name: "Restauração de Parachoque", price: "", rating: 5, reviewCount: "24", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752126201-qfwrcrny.webp" },
+        { id: "2", brand: "Felisberto", name: "Pintura de Porta (Sem emenda)", price: "", rating: 5, reviewCount: "18", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752156874-ny8sc2bh.webp" },
       ]}
       title="Resultados que impressionam"
       description="Veja o nível de detalhamento e o acabamento que entregamos em cada transformação."
@@ -125,19 +97,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "1",          name: "Roberto F.",          handle: "@roberto",          testimonial: "O serviço foi impecável. Não consigo nem notar onde estava o amassado. Profissionalismo puro.",          imageSrc: "http://img.b2bpic.net/free-photo/handshake-with-smiling-businessman_23-2147708181.jpg"},
-        {
-          id: "2",          name: "Ana Clara",          handle: "@anaclara",          testimonial: "A cor ficou exatamente igual ao resto do carro. Serviço sério e honesto.",          imageSrc: "http://img.b2bpic.net/free-photo/female-mechanic-car-owner-communicating-about-vehicle-breakdown-auto-repair-shop_637285-7756.jpg"},
-        {
-          id: "3",          name: "Marcos S.",          handle: "@marcoss",          testimonial: "Trataram meu carro como se fosse deles. Qualidade nota 10.",          imageSrc: "http://img.b2bpic.net/free-photo/young-man-choosing-car-car-showroom_1303-21751.jpg"},
-        {
-          id: "4",          name: "Luciana M.",          handle: "@luciana",          testimonial: "Cansada de oficinas baratas que estragam o carro. Aqui encontrei o nível que eu buscava.",          imageSrc: "http://img.b2bpic.net/free-photo/happy-black-mechanic-taking-notes-while-talking-customer-auto-repair-shop_637285-11587.jpg"},
-        {
-          id: "5",          name: "Carlos V.",          handle: "@carlosv",          testimonial: "Acabamento de fábrica. Recomendo muito para quem tem carro de valor.",          imageSrc: "http://img.b2bpic.net/free-photo/satisfied-customer-shaking-hands-with-mechanic_1170-1275.jpg"},
+        { id: "1", name: "Roberto F.", handle: "@roberto", testimonial: "Serviço impecável, Felisberto é um mestre.", imageSrc: "http://img.b2bpic.net/free-photo/handshake-with-smiling-businessman_23-2147708181.jpg" },
       ]}
       title="Excelência aprovada"
-      description="Veja o que nossos clientes dizem sobre o padrão de restauração da Diamond Studio Car."
+      description="Veja o que nossos clientes dizem sobre o padrão de restauração da Felisberto Estética Automotiva."
     />
   </div>
 
@@ -146,14 +109,8 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "1",          title: "A cor fica idêntica à de fábrica?",          content: "Sim. Utilizamos tecnologia de ponta em colorimetria e materiais premium para garantir que a tonalidade seja idêntica ao original."},
-        {
-          id: "2",          title: "Quanto tempo o carro precisa ficar?",          content: "Depende da complexidade do serviço. Após analisarmos as fotos, informamos o prazo exato para entrega."},
-        {
-          id: "3",          title: "Vocês trabalham com seguros?",          content: "Sim, emitimos toda a documentação necessária para que você possa solicitar o reembolso ou seguir pelo processo do seu seguro."},
-        {
-          id: "4",          title: "Como solicito o orçamento?",          content: "Muito simples. Clique no botão de WhatsApp, envie as fotos do dano e nossos consultores farão uma análise preliminar para você."},
+        { id: "1", title: "A cor fica idêntica?", content: "Sim, utilizamos tecnologia de ponta para garantir originalidade." },
+        { id: "4", title: "Como solicitar orçamento?", content: "Clique no botão de WhatsApp e envie fotos do seu veículo." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3C5ywkHoyR3BEj5CztBo3ErmScV/uploaded-1775752075025-drihji00.webp"
       imageAlt="Ambiente de restauração"
@@ -167,14 +124,12 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactCTA
       useInvertedBackground={true}
-      background={{
-        variant: "radial-gradient"}}
+      background={{ variant: "radial-gradient" }}
       tag="Faça seu Orçamento"
       title="Pronto para restaurar seu carro?"
-      description="Entre em contato agora e receba um atendimento especializado para o seu veículo."
+      description="Entre em contato no WhatsApp da Felisberto Estética Automotiva agora."
       buttons={[
-        {
-          text: "WhatsApp Fixo",          href: "https://wa.me/5563991226870"},
+        { text: "WhatsApp Fixo", href: "https://wa.me/5563991226870" },
       ]}
     />
   </div>
@@ -182,34 +137,11 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        {
-          title: "Institucional",          items: [
-            {
-              label: "Sobre Nós",              href: "#"},
-            {
-              label: "Como Funciona",              href: "#"},
-          ],
-        },
-        {
-          title: "Serviços",          items: [
-            {
-              label: "Funilaria",              href: "#"},
-            {
-              label: "Pintura",              href: "#"},
-            {
-              label: "Estética",              href: "#"},
-          ],
-        },
-        {
-          title: "Contato",          items: [
-            {
-              label: "WhatsApp",              href: "https://wa.me/5563991226870"},
-            {
-              label: "Palmas, TO",              href: "#"},
-          ],
-        },
+        { title: "Institucional", items: [{ label: "Sobre Nós", href: "#" }, { label: "Como Funciona", href: "#" }] },
+        { title: "Serviços", items: [{ label: "Funilaria", href: "#" }, { label: "Pintura", href: "#" }] },
+        { title: "Contato", items: [{ label: "WhatsApp", href: "https://wa.me/5563991226870" }, { label: "Palmas, TO", href: "#" }] },
       ]}
-      bottomLeftText="Diamond Studio Car © 2024"
+      bottomLeftText="Felisberto Estética Automotiva © 2025"
       bottomRightText="Todos os direitos reservados"
     />
   </div>

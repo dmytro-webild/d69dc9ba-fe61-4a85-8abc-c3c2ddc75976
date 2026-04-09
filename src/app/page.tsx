@@ -159,7 +159,7 @@ export default function LandingPage() {
       imageAlt="Ambiente de restauração"
       mediaAnimation="slide-up"
       title="Perguntas frequentes"
-      description="Tire suas dúvidas antes de solicitar o seu orçamento."
+      description="Tire suas dúvidas antes de solicitar o seu orçamento!"
       faqsAnimation="slide-up"
     />
   </div>
